@@ -1,0 +1,48 @@
+name: foodmonkey
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  card_swiper: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - lib/assets/images/
+
+
+  fonts:
+    - family: English
+      fonts:
+        - asset: lib/assets/fonts/Lora-Bold.ttf
+        - asset: lib/assets/fonts/Lora-Italic.ttf
+        - asset: lib/assets/fonts/Lora-Regular.ttf
+          style: italic
+    - family: Burmese
+      fonts:
+        - asset: lib/assets/fonts/Padauk-Bold.ttf
+        - asset: lib/assets/fonts/Padauk-Regular.ttf
+          weight: 700
+  
+
